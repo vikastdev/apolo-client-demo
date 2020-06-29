@@ -1,0 +1,18 @@
+
+form {
+    display: block;
+    left: 50%;
+    position: absolute;
+}
+form input[type="search"] {
+    border: solid 3px rgb(29, 24, 24);
+    box-sizing: border-box;
+    font-size: 2em;
+    height: 2em;
+    margin-left: -15vw;
+    padding: 0.5em;
+    width: 30vw;
+}
+form input[type="search"]:focus {
+    border: solid 3px #09f;
+}
